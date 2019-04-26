@@ -152,7 +152,8 @@
   margin: 12px auto; }
 
 .inspiraion {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px; }
   .inspiraion p:first-of-type {
     font-family: "Gill Sans MT";
     font-size: 23px;
