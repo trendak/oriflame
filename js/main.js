@@ -13,8 +13,9 @@
 						thisVideoParent.removeClass("hiddenTransform");
 					}, 500);
 					$('.videoBanner iframe').attr('src', thissource);
+
 					var playThisVideo = $('*[data-selection="#' + thisIdValue + '"]');
-					playThisVideo[0].src += "&autoplay=1";
+					
 
 					if(thisVideoParent.find('*[data-closer="#' + thisIdValue + '"]').length > 0) {
 						var closeButton = thisVideoParent.find('*[data-closer="#' + thisIdValue + '"]');
@@ -26,6 +27,7 @@
 							thisVideoParent.addClass("hiddenTransform");
 						});
 					}
+
 					else {
 						console.error("WARNING: Close Button is unavailable for stopping the video, please insert necessary dom!");
 						return;
