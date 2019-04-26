@@ -1,0 +1,314 @@
+@font-face {
+  font-family: Calibri;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Calibri"), url("fonts/Calibri.ttf") format("ttf"); }
+@font-face {
+  font-family: "Atelas Personal Use Only";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Atelas"), url("fonts/Atelas_PersonalUseOnly.ttf") format("truetype"); }
+@font-face {
+  font-family: '33535gillsansmt';
+  src: url("fonts/33535gillsansmt.eot");
+  src: local("33535gillsansmt"), url("fonts/33535gillsansmt.woff") format("woff"), url("fonts/gillsansmt.ttf") format("truetype"); }
+.logo {
+  max-width: 200px;
+  display: table;
+  margin: 10px auto; }
+
+.menu {
+  background-image: url("../img/bg.png");
+  background-size: 100% 100%;
+  display: block;
+  background-repeat: no-repeat;
+  min-height: 140px;
+  max-width: 762px;
+  width: 100%;
+  float: right; }
+  @media (max-width: 905px) {
+    .menu {
+      min-height: auto; }
+      .menu ol {
+        padding-bottom: 20px; } }
+  .menu ol {
+    white-space: nowrap;
+    padding-top: 55px;
+    padding-right: 50px;
+    display: flex;
+    padding-left: 35px;
+    justify-content: space-between;
+    flex-wrap: nowrap; }
+    @media (min-width: 768px) and (max-width: 905px) {
+      .menu ol {
+        padding-top: 47px;
+        padding-left: 20px;
+        padding-right: 35px; } }
+    @media (min-width: 560px) and (max-width: 675px) {
+      .menu ol {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 35px; } }
+    @media (max-width: 640px) {
+      .menu ol {
+        white-space: normal; } }
+    .menu ol a {
+      border-right: 1px solid #fff; }
+      .menu ol a:last-child {
+        position: relative;
+        border-right: none; }
+    .menu ol li {
+      padding: 4px 12px;
+      list-style-type: none;
+      font-family: Calibri;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 14px;
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase; }
+      .menu ol li a {
+        color: #fff; }
+    .menu ol .camera:after {
+      content: url("../img/camera.png");
+      position: absolute;
+      top: -1px;
+      right: -20px; }
+
+.pink-paint {
+  max-width: 420px;
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 100px;
+  line-height: 36px; }
+  @media (max-width: 768px) {
+    .pink-paint {
+      display: none; } }
+
+.porady {
+  width: 408.24px;
+  width: 100%; }
+  @media (max-width: 768px) {
+    .porady {
+      display: table;
+      margin: 20px auto; } }
+
+.under-green-text {
+  font-family: '33535gillsansmt';
+  font-size: 27px;
+  font-weight: 400;
+  margin-top: 70px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase; }
+  @media (max-width: 768px) {
+    .under-green-text {
+      margin: 0 auto;
+      display: table; } }
+  .under-green-text p {
+    line-height: 30px;
+    margin-bottom: 0; }
+    .under-green-text p:nth-of-type(1) {
+      padding-left: 11.88px; }
+    .under-green-text p:nth-of-type(2) {
+      padding-left: 109.08px; }
+      @media (max-width: 600px) {
+        .under-green-text p:nth-of-type(2) {
+          padding-left: 25px; } }
+    .under-green-text p:nth-of-type(3) {
+      margin-left: -70px; }
+      @media (max-width: 600px) {
+        .under-green-text p:nth-of-type(3) {
+          margin-left: 0; } }
+    .under-green-text p:nth-of-type(4) {
+      padding-left: 51px;
+      font-size: 46px;
+      line-height: 52px; }
+    .under-green-text p:nth-of-type(6) {
+      padding-left: 140px; }
+      @media (max-width: 600px) {
+        .under-green-text p:nth-of-type(6) {
+          padding-left: 35px; } }
+
+.text-environment {
+  color: #231f20;
+  font-family: '33535gillsansmt';
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 25px;
+  line-height: 22px; }
+
+.green-paint {
+  margin-top: 60px;
+  max-width: 418px;
+  float: right; }
+  @media (max-width: 768px) {
+    .green-paint {
+      display: none; } }
+
+.evryday {
+  display: table;
+  margin: 12px auto; }
+
+.inspiraion {
+  text-align: center; }
+  .inspiraion p:first-of-type {
+    font-family: "Gill Sans MT";
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .inspiraion p:last-of-type {
+    margin-top: 5px;
+    color: #231f20;
+    font-family: "Atelas Personal Use Only";
+    font-size: 51px;
+    font-weight: 400;
+    line-height: 25px; }
+
+.videos .video-box {
+  color: #3eb54a;
+  font-family: "Gill Sans MT";
+  font-size: 15px;
+  font-weight: 700;
+  max-width: 330px;
+  width: 100%;
+  text-align: center; }
+  @media (max-width: 690px) {
+    .videos .video-box {
+      display: table;
+      margin: 5px auto;
+      padding: 0 !important; } }
+  .videos .video-box .video {
+    position: relative;
+    border: 2px solid #e7e8e9;
+    margin-bottom: 12px;
+    width: 100%; }
+    .videos .video-box .video img {
+      width: 100%; }
+
+.green-gradient {
+  background-image: url("../img/Slice_5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+  position: relative; }
+  @media (max-width: 950px) {
+    .green-gradient {
+      margin-top: 50px; }
+      .green-gradient p {
+        display: table;
+        margin: 70px auto 0 auto; } }
+  .green-gradient .eco-image {
+    position: absolute;
+    top: -65px; }
+    @media (min-width: 768px) and (max-width: 950px) {
+      .green-gradient .eco-image {
+        max-width: 400px;
+        position: static; } }
+    @media (max-width: 768px) {
+      .green-gradient .eco-image {
+        display: none; } }
+  .green-gradient p {
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: "Gill Sans MT";
+    font-size: 34px;
+    font-weight: 400; }
+  .green-gradient .download-pdf {
+    color: #0a7b35;
+    font-family: "Gill Sans MT";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 20px 60px;
+    border-radius: 25px;
+    background: #fff;
+    display: table;
+    margin: 20px auto 20px auto; }
+
+.bottom-paint {
+  display: table;
+  margin: 70px auto 50px auto; }
+
+.videoFrame {
+  cursor: pointer; }
+  .videoFrame .curtain {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15); }
+  .videoFrame .playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    max-width: 50px; }
+
+.videoFrame.songBg1 {
+  background-image: url("../assets/images/song-bg1.jpg"); }
+
+.videoFrame.songBg2 {
+  background-image: url("../assets/images/song-bg2.jpg"); }
+
+.videoBanner {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 199; }
+  .videoBanner .closeIcon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 3rem;
+    z-index: 200;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 50%; }
+  .videoBanner iframe {
+    max-width: 853px;
+    max-height: 480px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.videoBanner.hiddenTransform {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10%);
+  -webkit-transform: translateY(10%); }
+
+@media (max-width: 990px) {
+  .container {
+    max-width: none !important; } }
+@media (max-width: 560px) {
+  .no-padding {
+    padding: 0; } }
+@media (max-width: 560px) {
+  .menu {
+    background-size: cover;
+    background-position: center; }
+    .menu ol {
+      padding-top: 35px;
+      justify-content: start;
+      flex-wrap: wrap;
+      white-space: nowrap; }
+      .menu ol a {
+        margin: 7px 0; } }
+
+/*# sourceMappingURL=css.css.map */
