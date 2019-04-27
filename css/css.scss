@@ -57,8 +57,8 @@ $size: 0.54;
         padding-right: 50px;
         display: flex;
         padding-left: 35px;
-        justify-content: space-between;
-        flex-wrap: nowrap;
+        justify-content: start;
+        flex-wrap: wrap;
 
         @media (min-width: 768px) and (max-width:905px) {
             padding-top: 47px;
@@ -86,7 +86,7 @@ $size: 0.54;
         }
 
         li {
-            padding: 4px 12px;
+            padding: 4px 15px;
             list-style-type: none;
             font-family: "Gill Sans MT";
             font-size: 15px;
@@ -118,7 +118,7 @@ $size: 0.54;
     position: relative;
     top: -85px;
 
-  
+
     ol {
         padding-left: 60px;
         padding-right: 80px;
@@ -130,11 +130,12 @@ $size: 0.54;
             padding-top: 35px;
 
         }
-         @media (max-width: 660px) {
-             padding-top: 20px;
-    justify-content: start;
-    flex-wrap: wrap;
-    white-space: nowrap;
+
+        @media (max-width: 660px) {
+            padding-top: 20px;
+            justify-content: start;
+            flex-wrap: wrap;
+            white-space: nowrap;
 
         }
 
@@ -172,9 +173,10 @@ $size: 0.54;
         top: -30px;
 
     }
-.camera:after {
-    top: 3px !important;
-}
+
+    .camera:after {
+        top: 3px !important;
+    }
 
 }
 
@@ -592,6 +594,7 @@ $size: 0.54;
         font-size: 90px;
         line-height: 64px;
         font-style: italic;
+        margin-bottom: 30px;
 
         @media (max-width: 300px) {
             font-size: 70px;
@@ -602,11 +605,11 @@ $size: 0.54;
     p {
         color: #231f20;
         font-family: "Gill Sans MT";
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 18px;
         text-align: center;
-        max-width: 670px;
+        max-width: 535px;
         display: table;
         margin: 20px auto;
     }
@@ -658,6 +661,534 @@ $size: 0.54;
     }
 }
 
+.next-to-paint {
+    padding-left: 45px;
+
+    @media (max-width: 540px) {
+        padding-left: 0px;
+    }
+
+    b {
+        color: #231f20;
+        font-family: "Gill Sans MT";
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        @media (max-width: 420px) {
+            font-size: 33px;
+        }
+    }
+
+    span:nth-of-type(1) {
+        color: #3eb54a;
+        font-family: "Atelas Personal Use Only";
+        font-size: 94px;
+        font-weight: 400;
+        line-height: 36.5px;
+
+        @media (max-width: 420px) {
+            font-size: 70px;
+        }
+    }
+
+    span:nth-of-type(2) {
+        color: #231f20;
+        font-family: "Gill Sans MT";
+        font-size: 41px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-left: 35px;
+
+        @media (max-width: 420px) {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        display: table;
+        margin: 15px auto;
+    }
+
+
+}
+
+.green-button {
+    color: #ffffff;
+    font-family: "Gill Sans MT";
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #3eb549;
+    padding: 17px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 30px auto;
+    display: table;
+}
+
+.under-next-to-paint {
+    color: #231f20;
+    font-family: "Gill Sans MT";
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+.green-paint-main {
+    max-width: 442px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.images-background-pinks {
+    position: relative;
+
+    img:nth-of-type(1) {
+        position: absolute;
+        z-index: -3;
+        bottom: 0;
+        left: 0;
+
+        @media (max-width: 805px) {
+            display: none;
+        }
+    }
+
+    img:nth-of-type(2) {
+        position: absolute;
+        z-index: -3;
+        top: 0;
+        right: 122px;
+    }
+
+    @media (max-width: 768px) {
+        img:nth-of-type(2) {
+            right: 0
+        }
+
+        margin-top: 50px;
+    }
+
+}
+
+.invite-section {
+    margin-top: 100px;
+    position: relative;
+
+    .paint-under-video {
+        position: absolute;
+        z-index: -3;
+        bottom: -44px;
+
+        @media (max-width: 690px) {
+            display: none;
+        }
+    }
+
+    .videoFrame {
+        max-width: 480px;
+        width: 100%;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .atleas-green {
+        color: #3eb54a;
+        font-family: "Atelas Personal Use Only";
+        font-size: 56px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .invite-text {
+        color: #3eb54a;
+        font-family: "Gill Sans MT";
+        font-size: 22px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    a {
+        color: #ffffff;
+        font-family: "Gill Sans MT";
+        font-size: 16px;
+        font-weight: 400;
+        padding: 14px 16px;
+        white-space: nowrap;
+        display: table;
+        margin: 50px auto;
+        background: #3eb54a;
+        border-radius: 25px;
+        text-transform: uppercase;
+
+        @media (max-width: 330px) {
+            padding: 14px 7px;
+            white-space: normal;
+        }
+    }
+}
+
+.green-gradient-main {
+    background-image: url("../img/gradient-green-reverse.png") !important;
+}
+
+.organizators {
+    margin-top: 140px;
+    color: #231f20;
+    font-family: "Gill Sans MT";
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+
+    img {
+        display: table;
+        margin: 40px auto;
+
+    }
+
+    img.oriflame {
+        max-width: 230px;
+        width: 100%;
+    }
+
+    img.partners {
+        max-width: 354px;
+        width: 100%;
+    }
+}
+
+.pink-box {
+    margin-top: 70px;
+    background: #f7abad;
+    text-align: center;
+
+    span {
+        color: #ffffff;
+        font-family: "Atelas Personal Use Only";
+        font-size: 63px;
+        font-weight: 400;
+    }
+
+    .instagram {
+        position: relative;
+        top: -10px;
+        padding-left: 15px;
+        max-width: 143px;
+    }
+
+    p {
+        color: #231f20;
+        font-family: "Gill Sans MT";
+        font-size: 19px;
+        font-weight: 400;
+
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .no-padding-box {
+        padding: 0;
+
+        @media (min-width: 768px) {
+            img {
+                float: right;
+            }
+        }
+    }
+}
+
+.white-button {
+    color: #231f20;
+    font-family: "Gill Sans MT";
+    font-size: 15px;
+    font-weight: 400;
+    padding: 17px 50px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 25px auto 35px auto;
+    display: table;
+    text-transform: uppercase;
+}
+
+.contest-column {
+    h3 {
+        font-family: "Atelas Personal Use Only";
+        font-size: 120px;
+        color: #3eb549;
+        margin-top: 100px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    p {
+        color: #000000;
+        font-family: "Gill Sans MT";
+        font-size: 20px;
+        text-align: center;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .instagram-logo {
+        margin: 35px auto 36px auto;
+        display: table;
+
+        img {
+            max-width: 250px * 0.6;
+            width: 100%;
+        }
+    }
+
+    .green-paint {
+        max-width: 782px * 0.6;
+        display: table;
+        width: 100%;
+        margin: 0 auto;
+
+        @media (max-width: 768px) {
+
+            display: none;
+        }
+    }
+}
+
+.tel-column {
+    .tel-green {
+        max-width: 556px * 0.6;
+        width: 100%;
+        display: table;
+        margin: 20px auto;
+    }
+
+    h3 {
+        font-family: "Atelas Personal Use Only";
+        font-size: 100px;
+        line-height: 75px;
+        color: #3eb549;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    h4 {
+        color: #000000;
+        font-family: "Atelas Personal Use Only";
+        font-size: 60px;
+        font-weight: 400;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    p {
+        color: #000000;
+        font-family: "Gill Sans MT";
+        font-size: 32px * 0.6;
+        text-align: center;
+    }
+
+    .recommendations {
+        max-width: 430px;
+        display: table;
+        list-style: none;
+        padding-left: 0;
+        margin: 0 auto;
+
+        li {
+            display: inline-block;
+            font-family: "Gill Sans MT";
+            font-size: 18px;
+            font-weight: 400;
+            margin: 15px;
+            position: relative;
+
+            @media (max-width: 450px) {
+
+                display: block;
+            }
+
+            &:before {
+                content: '// ';
+                font-weight: 400;
+                font-size: 18px;
+                top: 0;
+                color: #3eb549;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
+    }
+}
+
+.contest-green {
+    background-image: url("../img/contest-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    .box-green {
+        color: #fff;
+        padding: 40px * 0.6;
+        max-width: 860px * 0.6;
+        border: 2px solid #fff;
+        text-align: center;
+        margin: 40px auto;
+
+        p {
+            font-family: "Gill Sans MT";
+            font-size: 32px * 0.6;
+            font-weight: 400;
+
+        }
+
+        b {
+            color: #fff;
+            font-family: "Gill Sans MT";
+            font-size: 76px * 0.6;
+            font-weight: 700;
+        }
+
+        .white-button {
+            color: #000000;
+            font-family: "Gill Sans MT";
+            font-size: 24px;
+            text-transform: uppercase;
+            padding: 30px * 0.6 70px * 0.6;
+        }
+    }
+
+    .invite-message {
+        color: #fff;
+        font-family: "Gill Sans MT";
+        font-size: 32px * 0.6;
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+        max-width: 1400px * 0.6;
+        font-weight: 400;
+    }
+
+}
+
+.gray-column-image {
+    max-width: 775px * 0.6;
+    width: 100%;
+}
+
+.oriflame-footer {
+    img {
+        max-width: 220px;
+        width: 100%;
+
+        @media (max-width: 530px) {
+            display: table;
+            margin: 0px auto;
+        }
+
+
+    }
+
+    a {
+        padding: 20px;
+        background: #f8abad;
+        font-family: "Gill Sans MT";
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 25px;
+        color: #000;
+        margin-left: 25px;
+        text-transform: uppercase;
+
+        @media (max-width: 530px) {
+            display: table;
+            margin: 30px auto;
+        }
+    }
+
+    .oriflame-box {
+        margin: 70px auto;
+        display: table;
+    }
+}
+
+.awards-column {
+    h3 {
+        color: #000000;
+        font-family: "Atelas Personal Use Only";
+        font-size: 195px * 0.6;
+        text-align: center;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    p:nth-of-type(1) {
+        color: #fff;
+        font-family: "Gill Sans MT";
+        font-size: 37px * 0.6;
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+
+        span {
+            font-family: "Gill Sans MT";
+            font-size: 58px * 0.6;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    p:nth-of-type(2) {
+        color: #fff;
+        font-family: "Gill Sans MT";
+        font-size: 17px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+
+        span {
+            font-family: "Gill Sans MT";
+            font-size: 35px * 0.6;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.tetra-glump {
+    img {
+        max-width: 574px * 0.6;
+        width: 100%;
+        @media (max-width: 990px) {
+        	display: table;
+        	margin: 0 auto;
+        }
+    }
+    p{
+    	color: #fff;
+font-family: "Gill Sans MT";
+font-size: 32px * 0.6;
+font-weight: 400;
+&:nth-of-type(1){
+	margin-top: 45px * 0.6;
+    }
+}
+}
+.green-products{
+	max-width: 865px * 0.6;
+	width: 100%;
+}
 
 @media (max-width: 990px) {
     .container {
