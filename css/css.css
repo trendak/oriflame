@@ -9,7 +9,7 @@
   font-weight: normal;
   src: local("Atelas"), url("fonts/Atelas_PersonalUseOnly.ttf") format("truetype"); }
 @font-face {
-  font-family: '33535gillsansmt';
+  font-family: "Gill Sans MT";
   src: url("fonts/33535gillsansmt.eot");
   src: local("33535gillsansmt"), url("fonts/33535gillsansmt.woff") format("woff"), url("fonts/gillsansmt.ttf") format("truetype"); }
 .logo {
@@ -60,7 +60,7 @@
     .menu ol li {
       padding: 4px 12px;
       list-style-type: none;
-      font-family: Calibri;
+      font-family: "Gill Sans MT";
       font-size: 15px;
       font-weight: bold;
       line-height: 14px;
@@ -94,7 +94,7 @@
       margin: 20px auto; } }
 
 .under-green-text {
-  font-family: '33535gillsansmt';
+  font-family: 'Gill Sans MT';
   font-size: 27px;
   font-weight: 400;
   margin-top: 70px;
@@ -133,7 +133,7 @@
 
 .text-environment {
   color: #231f20;
-  font-family: '33535gillsansmt';
+  font-family: 'Gill Sans MT';
   font-size: 19px;
   font-weight: 400;
   margin-top: 25px;
