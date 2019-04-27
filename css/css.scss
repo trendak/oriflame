@@ -795,6 +795,9 @@ $size: 0.54;
         max-width: 480px;
         width: 100%;
         position: relative;
+        @media (max-width: 580px) {
+            max-width: none;
+        }
 
         img {
             width: 100%;

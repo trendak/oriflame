@@ -572,6 +572,9 @@
     max-width: 480px;
     width: 100%;
     position: relative; }
+    @media (max-width: 580px) {
+      .invite-section .videoFrame {
+        max-width: none; } }
     .invite-section .videoFrame img {
       width: 100%; }
   .invite-section .atleas-green {
