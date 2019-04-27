@@ -13,7 +13,7 @@
 }
 
 @font-face {
-    font-family: '33535gillsansmt';
+    font-family: "Gill Sans MT";
     src: url('fonts/33535gillsansmt.eot');
     src: local('33535gillsansmt'), url('fonts/33535gillsansmt.woff') format('woff'), url('fonts/gillsansmt.ttf') format('truetype');
 }
@@ -129,7 +129,7 @@ $size: 0.54;
 }
 
 .under-green-text {
-    font-family: '33535gillsansmt';
+    font-family: 'Gill Sans MT';
     font-size: 50px * $size;
     font-weight: 400;
     margin-top: 70px;
@@ -193,7 +193,7 @@ $size: 0.54;
 
 .text-environment {
     color: #231f20;
-    font-family: '33535gillsansmt';
+    font-family: 'Gill Sans MT';
     font-size: 19px;
     font-weight: 400;
     margin-top: 25px;
@@ -388,6 +388,9 @@ $size: 0.54;
 	visibility: hidden;
 	transform: translateY(10%);
 	-webkit-transform: translateY(10%);
+}
+.meet{
+	
 }
 
 @media (max-width: 990px) {
