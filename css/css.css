@@ -57,6 +57,9 @@
     @media (max-width: 640px) {
       .menu ol {
         white-space: normal; } }
+    @media (min-width: 1200px) {
+      .menu ol {
+        flex-wrap: nowrap; } }
     .menu ol a {
       border-right: 1px solid #fff; }
       .menu ol a:last-child {

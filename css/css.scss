@@ -75,6 +75,10 @@ $size: 0.54;
         @media (max-width: 640px) {
             white-space: normal;
         }
+         @media (min-width: 1200px) {
+            flex-wrap: nowrap;
+        }
+
 
         a {
             border-right: 1px solid #fff;
