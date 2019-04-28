@@ -184,6 +184,11 @@ $size: 0.54;
                     padding: 6px 20px;
 
                 }
+                 @media (max-width: 480px) {
+                    font-size: 14px;
+                    padding: 4px 12px;
+
+                }
             }
         }
     }
@@ -225,6 +230,10 @@ font-weight: 400;
 line-height: 64px;
  display: table;
         margin: 20px auto;
+        @media (max-width: 450px) {
+        font-size: 50px;
+            line-height: 44px;
+    }
 
 }
 
@@ -380,6 +389,7 @@ line-height: 64px;
         font-family: "Gill Sans MT";
         font-size: 15px;
         font-weight: 700;
+        display: inline-block;
         max-width: 330px;
         width: 100%;
         text-align: center;
@@ -1039,6 +1049,8 @@ line-height: 64px;
         max-width: 782px * 0.6;
         display: table;
         width: 100%;
+        position: absolute;
+        bottom: 0;
         margin: 0 auto;
 
         @media (max-width: 768px) {
@@ -1554,7 +1566,7 @@ line-height: 64px;
             white-space: nowrap;
 
             a {
-                margin: 7px 0;
+                margin: 1px 0;
             }
         }
     }

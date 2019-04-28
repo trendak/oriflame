@@ -128,6 +128,10 @@
         .menu-main ol a li {
           font-size: 24px;
           padding: 6px 20px; } }
+      @media (max-width: 480px) {
+        .menu-main ol a li {
+          font-size: 14px;
+          padding: 4px 12px; } }
   @media (max-width: 1200px) {
     .menu-main {
       top: -45px; } }
@@ -155,6 +159,10 @@
   line-height: 64px;
   display: table;
   margin: 20px auto; }
+  @media (max-width: 450px) {
+    .tips {
+      font-size: 50px;
+      line-height: 44px; } }
 
 .gallery img {
   margin: 5px;
@@ -258,6 +266,7 @@
   font-family: "Gill Sans MT";
   font-size: 15px;
   font-weight: 700;
+  display: inline-block;
   max-width: 330px;
   width: 100%;
   text-align: center; }
@@ -748,6 +757,8 @@
   max-width: 469.2px;
   display: table;
   width: 100%;
+  position: absolute;
+  bottom: 0;
   margin: 0 auto; }
   @media (max-width: 768px) {
     .contest-column .green-paint {
@@ -1134,6 +1145,6 @@
       flex-wrap: wrap;
       white-space: nowrap; }
       .menu ol a {
-        margin: 7px 0; } }
+        margin: 1px 0; } }
 
 /*# sourceMappingURL=css.css.map */
