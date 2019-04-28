@@ -123,13 +123,14 @@ $size: 0.54;
         padding-left: 60px;
         padding-right: 80px;
         margin-bottom: 0;
-      
 
- @media (min-width: 700px) {
-           display: flex;
-        justify-content: space-between; 
+
+        @media (min-width: 715px) {
+            display: flex;
+            justify-content: space-between;
 
         }
+
         @media (max-width: 800px) {
             padding-left: 41px;
             padding-right: 50px;
@@ -166,8 +167,15 @@ $size: 0.54;
                     padding: 4px 12px;
 
                 }
+
                 @media (max-width: 1200px) {
-                	font-size: 17px;
+                    font-size: 17px;
+                }
+
+                @media (min-width: 1250px) {
+                    font-size: 25px;
+                    padding: 6px 25px;
+
                 }
             }
         }
@@ -202,14 +210,46 @@ $size: 0.54;
 }
 
 
-.porady {
-    width: 756px * $size;
-    width: 100%;
-
-    @media (max-width: 768px) {
-        display: table;
+.tips {
+    color: #3eb54a;
+font-family: "Atelas Personal Use Only";
+font-size: 95px;
+font-weight: 400;
+line-height: 64px;
+ display: table;
         margin: 20px auto;
+
+}
+
+.gallery {
+
+    img {
+        margin: 5px;
+        border: 2px solid #fff;
     }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 50px;
+
+    }
+
+    .slick-prev {
+        left: -65px;
+
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+    }
+
+    .slick-next {
+        right: -37px;
+
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+    }
+
 }
 
 .under-green-text {
@@ -400,7 +440,7 @@ $size: 0.54;
         border-radius: 25px;
         background: #fff;
         display: table;
-        margin: 20px auto 20px auto;
+        margin: 20px auto 25px auto;
     }
 }
 
@@ -794,8 +834,13 @@ $size: 0.54;
         position: absolute;
         z-index: -3;
         bottom: -44px;
-
-        @media (max-width: 690px) {
+ @media (max-width: 1200px) {
+            bottom: 0;
+        }
+         @media (max-width: 930px) {
+            bottom: 35px;
+        }
+        @media (max-width: 790px) {
             display: none;
         }
     }
@@ -804,6 +849,7 @@ $size: 0.54;
         max-width: 480px;
         width: 100%;
         position: relative;
+
         @media (max-width: 580px) {
             max-width: none;
         }
@@ -851,6 +897,11 @@ $size: 0.54;
 
 .green-gradient-main {
     background-image: url("../img/gradient-green-reverse.png") !important;
+
+    .eco-image {
+        width: 100%;
+        max-width: 540px;
+    }
 }
 
 .organizators {
@@ -916,6 +967,7 @@ $size: 0.54;
         @media (min-width: 768px) {
             img {
                 float: right;
+                height: 100%;
             }
         }
     }
@@ -1046,6 +1098,7 @@ $size: 0.54;
 .contest-green {
     background-image: url("../img/contest-background.png");
     background-size: 100% 100%;
+    padding-bottom: 30px;
     background-repeat: no-repeat;
 
     .box-green {
@@ -1068,6 +1121,10 @@ $size: 0.54;
             font-family: "Gill Sans MT";
             font-size: 76px * 0.6;
             font-weight: 700;
+
+            @media (max-width: 410px) {
+                font-size: 60px * 0.6;
+            }
         }
 
         .white-button {
@@ -1182,43 +1239,258 @@ $size: 0.54;
     img {
         max-width: 574px * 0.6;
         width: 100%;
+
         @media (max-width: 990px) {
-        	display: table;
-        	margin: 0 auto;
+            display: table;
+            margin: 0 auto;
         }
     }
-    p{
-    	color: #fff;
-font-family: "Gill Sans MT";
-font-size: 32px * 0.6;
-font-weight: 400;
-&:nth-of-type(1){
-	margin-top: 45px * 0.6;
+
+    p {
+        color: #fff;
+        font-family: "Gill Sans MT";
+        font-size: 32px * 0.6;
+        font-weight: 400;
+
+        &:nth-of-type(1) {
+            margin-top: 45px * 0.6;
+        }
     }
 }
+
+.green-products {
+    max-width: 865px * 0.6;
+    width: 100%;
 }
-.green-products{
-	max-width: 865px * 0.6;
-	width: 100%;
-}
-.brown-background{
-	background-image: url("../img/brown-background.png");
+
+.brown-background {
+    background-image: url("../img/brown-background.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    p{
-    	font-family: "Gill Sans MT";
-font-size: 32px * 0.6;
-color: #fff;
-text-align: center;
-margin-top: 30px;
-font-weight: 700;
-text-transform: uppercase;
+    padding-bottom: 30px;
+
+    p {
+        font-family: "Gill Sans MT";
+        font-size: 32px * 0.6;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 }
-.nopadding-all {
-   padding: 0 !important;
-   margin: 0 !important;
+
+.oriflame-section {
+    position: relative;
+    margin-top: 40px;
+
+    .oriflame-logo-center {
+        max-width: 286px;
+        width: 100%;
+        margin: 50px auto 50px auto;
+        display: table;
+    }
+
+    .center-oriflame-text {
+        color: #231f20;
+        font-family: "Gill Sans MT";
+        font-size: 26px;
+        font-weight: 400;
+        text-align: center;
+        max-width: 670px;
+        margin: 0 auto;
+    }
+
+    .green-right-image {
+        position: absolute;
+        left: 00px;
+        top: 0;
+        z-index: -1;
+
+        @media (max-width: 870px) {
+            display: none;
+        }
+    }
 }
+
+.next-to-text-image {
+    margin-top: 130px;
+    font-family: "Gill Sans MT";
+    font-size: 17px;
+    font-weight: 400;
+
+    position: relative;
+
+    p {
+        max-width: 410px;
+        position: relative;
+    }
+
+    img {
+        position: absolute;
+        top: -45px;
+        left: -35px;
+        z-index: -3;
+        max-width: 118px;
+
+        @media (max-width: 490px) {
+            top: -77px;
+            left: -7px;
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    .center-mobile {
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+.peoples-image {
+    max-width: 480px;
+    width: 100%;
+}
+
+.nopadding-all {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.gradient-green-oriflame {
+    background-image: url("../img/gradient-green-reverse.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    position: relative;
+    padding-bottom: 60px;
+
+    p {
+        font-family: "Gill Sans MT";
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+
+        b {
+            font-size: 24px;
+            font-weight: 700;
+            position: relative;
+            text-transform: uppercase;
+
+            img {
+                position: relative;
+
+                @media (min-width: 640px) {
+                    top: -10px;
+                    right: -10px;
+                    position: relative;
+                }
+
+            }
+        }
+    }    .green-paint-heart{
+    	position: absolute;
+    	max-width: 330px;
+    	    left: 0;
+    	    @media (max-width: 390px) {
+                    bottom: -60px;
+                    max-width: 150px;
+                }
+
+    right: 0;
+    	    bottom: -170px;
+    	    margin: 0 auto;
+    	width: 100%;
+    }
+}
+.about-green{
+	padding-bottom: 100px;
+}
+.about-video{
+	max-width: 970px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 95px auto 30px auto;
+	img{
+		width: 100%;
+	}
+}
+.height-green{
+	padding-bottom: 0;
+}
+.about {
+    h3 {
+        color: #3eb54a;
+        font-family: "Atelas Personal Use Only";
+        font-size: 121px;
+        text-align: center;
+        position: relative;
+        font-weight: 400;
+        margin-top: 100px;
+        @media (max-width: 800px) {
+            margin-bottom: 40px;
+        }
+        @media (max-width: 300px) {
+            font-size: 80px;
+        }
+    }
+
+    .gradient-green-oriflame {
+        p {
+            text-align: left;
+            font-size: 16px;
+        }
+
+        b {
+            font-size: 17px;
+        }
+    }
+
+    .center-bold {
+        color: #ffffff;
+        font-family: "Gill Sans MT";
+        font-size: 21px !important;
+        font-weight: 400;
+        text-align: center !important;
+        margin-top: 45px;
+        text-transform: uppercase;
+    }
+}
+
+.paint-green-absolute {
+    transform: scaleX(-1);
+    position: absolute;
+    top: -64px;
+    right: 0px;
+    z-index: -3;
+}
+
+.mountain-text {
+	margin-top: 60px;
+    p {
+        color: #000000;
+        font-family: "Gill Sans MT";
+        font-size: 32px * 0.6;
+        text-align: center;
+        max-width: 1600px * 0.6;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+    }
+
+    .mountains {
+        width: 100%;
+
+        @media (min-width: 700px) {
+            position: relative;
+            top: -80px;
+            z-index: -3;
+        }
+    }
+}
+
 @media (max-width: 990px) {
     .container {
         max-width: none !important;

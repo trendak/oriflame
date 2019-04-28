@@ -4,46 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta itemprop="image" content="www.x.com/x.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>Oriflame</title>
     <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-<script type="text/javascript" src="js/slick.min.js"></script>
- <script type="text/javascript">
-    $(document).ready(function(){
-      $('.brown-background').slick({
-        setting-name: setting-value
-      });
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('.gallery').slick({
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            speed: 300,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            speed: 300,
+
+            responsive: [{
+                    breakpoint: 1000,
+                    settings: {
+                        arrows: true,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 800,
+                    settings: {
+                        arrows: true,
+                        autoplaySpeed: 2000,
+
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        autoplaySpeed: 2000,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
     });
-  </script>
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-12 col-xs-12">
-                <img src="img/logo.png" alt="" class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
             </div>
             <div class="col-md-9 col-sm-12 col-xs-12 no-padding">
                 <div class="menu">
                     <ol>
-                        <a href="">
+                        <a href="about.html">
                             <li>O&nbsp;AKCJI</li>
                         </a>
-                        <a href="">
+                        <a href="videos.html">
                             <li>PORADY AMBASADORÓW</li>
                         </a>
-                        <a href="">
+                        <a href="oriflame.html">
                             <li>ORIFLAME </li>
                         </a>
-                        <a href="">
+                        <a href="lovenatureday.html">
                             <li>LOVE NATURE DAY</li>
                         </a>
-                        <a href="">
+                        <a href="contest.html">
                             <li class="camera">KONKURS</li>
                         </a>
                     </ol>
@@ -98,7 +132,7 @@
                     zachęcamy do dodania również oznaczenia @oriflamepoland, aby twoje zgłoszenie miało dodatkowo szansę
                     pojawić się na kanale Instagram Oriflame Poland!
                 </p>
-                <a href="" class="white-button">REGULAMIN <b>KONKURSU</b></a>
+                <a href="" target="_blank" class="white-button">REGULAMIN <b>KONKURSU</b></a>
             </div>
         </div>
         <div class="row">
@@ -132,8 +166,45 @@
     <div class="container brown-background">
         <div class="row">
             <div class="col-lg-12">
-          
                 <p> ZOBACZ, CO NA CIEBIE CZEKA</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1">
+                <div class="gallery">
+                    <img src="img/gallery/1.jpg" alt="">
+                    <img src="img/gallery/2.jpg" alt="">
+                    <img src="img/gallery/3.jpg" alt="">
+                    <img src="img/gallery/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mountain-text">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                    Nawet najstarsi górale w najśmielszych snach nie wyobrażali sobie, że kiedyś w sąsiedztwie<br> 
+Tatrzańskiego Parku Narodowego, na górze pośród drzew wyrosną takie cuda.</p>
+
+<p>Wyglądają jak igloo, mają wielkie okno na Tatry i są przytulne jak schronisko na Hali Kondratowej zimą.<br>
+Znajdują się w niedalekiej odległości od centrum Bukowiny Tatrzańskiej w towarzystwie halnego i owiec na wypasie.</p>
+
+<p>Na urlop na Podhalu nie ma jednego przepisu. </p>
+
+<p>Można hasać po Krupówkach i targować się o ciupagę wetkniętą w bursztyn, fotografować się z misiem,<br> 
+zdobywać najwyższe szczyty lub nie opuszczać karczmy na krok. </p>
+
+<p>Mamy dla Was trochę inny pomysł. 
+Pobudka w świeżej pościeli z widokiem na górę, bose stopy na trawie i świeża kawa z widokiem na góry.</p>
+
+<p>Zapraszamy do klapnioków, czyli na luksusowy wypoczynek w nowoczesnych kopułach sferycznych.<br> 
+Tu elementy architektury ludowej łączą się z nowoczesnymi rozwiązaniami, a z panoramicznego okna można podziwiać piękny widok 
+i dzikie zwierzęta w środowisku naturalnym. </p>
+
+<p><b>Poznajcie Tatry w wersji GLAMP i EKO!</b></p>
+                </p>
+                <img src="img/mountains.png" class="mountains" alt="">
             </div>
         </div>
     </div>
