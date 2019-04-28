@@ -22,6 +22,9 @@
   max-width: 384px;
   width: 100%;
   margin: 80px auto 20px auto; }
+  @media (max-width: 440px) {
+    .logo-main-page {
+      max-width: 192px; } }
 
 .menu {
   background-image: url("../img/bg.png");
@@ -29,7 +32,7 @@
   display: block;
   background-repeat: no-repeat;
   min-height: 140px;
-  max-width: 762px;
+  max-width: 780px;
   width: 100%;
   float: right; }
   @media (max-width: 905px) {
@@ -123,8 +126,8 @@
           font-size: 17px; } }
       @media (min-width: 1250px) {
         .menu-main ol a li {
-          font-size: 25px;
-          padding: 6px 25px; } }
+          font-size: 24px;
+          padding: 6px 20px; } }
   @media (max-width: 1200px) {
     .menu-main {
       top: -45px; } }
@@ -411,8 +414,8 @@
       line-height: 21px;
       width: 510px;
       position: relative;
-      left: -61px; }
-      @media (max-width: 940px) {
+      left: -108px; }
+      @media (max-width: 990px) {
         .love-nature-row .electro-place p:nth-of-type(3) {
           width: auto;
           position: static; } }
@@ -683,6 +686,10 @@
     font-family: "Atelas Personal Use Only";
     font-size: 63px;
     font-weight: 400; }
+  .pink-box .hashtag {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; }
   .pink-box .instagram {
     position: relative;
     top: -10px;
