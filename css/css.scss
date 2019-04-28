@@ -438,7 +438,9 @@ line-height: 64px;
 
     .eco-image {
         position: absolute;
-        top: -65px;
+        top: -48px;
+        max-width: 440px;
+        width: 100%;
 
         @media (min-width: 768px) and (max-width:950px) {
             max-width: 400px;
@@ -455,7 +457,8 @@ line-height: 64px;
         margin-top: 70px;
         color: #ffffff;
         font-family: "Gill Sans MT";
-        font-size: 34px;
+            font-size: 26px;
+    line-height: 34px;
         font-weight: 400;
     }
 
@@ -929,7 +932,7 @@ line-height: 64px;
 
     .eco-image {
         width: 100%;
-        max-width: 540px;
+        max-width: 440px;
     }
 }
 

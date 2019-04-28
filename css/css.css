@@ -302,7 +302,9 @@
         margin: 70px auto 0 auto; } }
   .green-gradient .eco-image {
     position: absolute;
-    top: -65px; }
+    top: -48px;
+    max-width: 440px;
+    width: 100%; }
     @media (min-width: 768px) and (max-width: 950px) {
       .green-gradient .eco-image {
         max-width: 400px;
@@ -314,7 +316,8 @@
     margin-top: 70px;
     color: #ffffff;
     font-family: "Gill Sans MT";
-    font-size: 34px;
+    font-size: 26px;
+    line-height: 34px;
     font-weight: 400; }
   .green-gradient .download-pdf {
     color: #0a7b35;
@@ -671,7 +674,7 @@
   background-image: url("../img/gradient-green-reverse.png") !important; }
   .green-gradient-main .eco-image {
     width: 100%;
-    max-width: 540px; }
+    max-width: 440px; }
 
 .organizators {
   margin-top: 140px;
