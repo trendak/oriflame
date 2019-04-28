@@ -104,6 +104,11 @@
         padding-left: 41px;
         padding-right: 50px;
         padding-top: 35px; } }
+    @media (max-width: 450px) {
+      .menu-main ol {
+        padding-left: 35px;
+        padding-right: 40px;
+        padding-top: 35px; } }
     @media (max-width: 660px) {
       .menu-main ol {
         padding-top: 20px;
@@ -708,6 +713,8 @@
     color: #231f20;
     font-family: "Gill Sans MT";
     font-size: 19px;
+    max-width: 480px;
+    margin: 0 auto 16px auto;
     font-weight: 400; }
   .pink-box img {
     width: 100%; }

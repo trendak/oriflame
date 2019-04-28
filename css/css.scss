@@ -144,6 +144,13 @@ $size: 0.54;
             padding-top: 35px;
 
         }
+         @media (max-width: 450px) {
+            padding-left: 35px;
+            padding-right: 40px;
+            padding-top: 35px;
+
+        }
+
 
         @media (max-width: 660px) {
             padding-top: 20px;
@@ -980,6 +987,8 @@ line-height: 64px;
         color: #231f20;
         font-family: "Gill Sans MT";
         font-size: 19px;
+        max-width: 480px;
+    margin: 0 auto 16px auto;
         font-weight: 400;
 
     }
