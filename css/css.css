@@ -158,18 +158,20 @@
   border: 2px solid #fff; }
 .gallery .slick-prev:before,
 .gallery .slick-next:before {
-  font-size: 50px;
-  height: 50px;
-  width: 50px; }
+  font-size: 50px; }
 .gallery .slick-prev {
   left: -65px;
-  z-index: 1; }
+  z-index: 1;
+  height: 50px;
+  width: 50px; }
   @media (max-width: 768px) {
     .gallery .slick-prev {
       display: none !important; } }
 .gallery .slick-next {
-  right: -37px;
-  z-index: 1; }
+  right: -79px;
+  z-index: 1;
+  height: 50px;
+  width: 50px; }
   @media (max-width: 768px) {
     .gallery .slick-next {
       display: none !important; } }
