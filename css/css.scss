@@ -240,7 +240,7 @@ line-height: 64px;
 
     .slick-prev {
         left: -65px;
-
+		z-index: 1;
         @media (max-width: 768px) {
             display: none !important;
         }
@@ -248,7 +248,7 @@ line-height: 64px;
 
     .slick-next {
         right: -37px;
-
+		z-index: 1;
         @media (max-width: 768px) {
             display: none !important;
         }
@@ -1129,6 +1129,10 @@ line-height: 64px;
             @media (max-width: 410px) {
                 font-size: 60px * 0.6;
             }
+            @media (max-width: 340px) {
+                font-size: 40px * 0.6;
+            }
+
         }
 
         .white-button {
@@ -1202,6 +1206,10 @@ line-height: 64px;
         text-align: center;
         color: #fff;
         font-weight: 400;
+        @media (max-width: 350px) {
+            font-size: 140px * 0.6;
+        }
+
     }
 
     p:nth-of-type(1) {

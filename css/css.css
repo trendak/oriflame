@@ -160,12 +160,14 @@
 .gallery .slick-next:before {
   font-size: 50px; }
 .gallery .slick-prev {
-  left: -65px; }
+  left: -65px;
+  z-index: 1; }
   @media (max-width: 768px) {
     .gallery .slick-prev {
       display: none !important; } }
 .gallery .slick-next {
-  right: -37px; }
+  right: -37px;
+  z-index: 1; }
   @media (max-width: 768px) {
     .gallery .slick-next {
       display: none !important; } }
@@ -810,6 +812,9 @@
       @media (max-width: 410px) {
         .contest-green .box-green b {
           font-size: 36px; } }
+      @media (max-width: 340px) {
+        .contest-green .box-green b {
+          font-size: 24px; } }
     .contest-green .box-green .white-button {
       color: #000000;
       font-family: "Gill Sans MT";
@@ -862,6 +867,9 @@
   text-align: center;
   color: #fff;
   font-weight: 400; }
+  @media (max-width: 350px) {
+    .awards-column h3 {
+      font-size: 84px; } }
 .awards-column p:nth-of-type(1) {
   color: #fff;
   font-family: "Gill Sans MT";
