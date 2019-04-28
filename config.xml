@@ -1,1 +1,2 @@
-<access origin="*"/>
+<!-- Whitelist the domain -->
+<allow-navigation href="https://*youtube.com/*"/>

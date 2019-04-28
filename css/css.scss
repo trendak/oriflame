@@ -1466,6 +1466,9 @@ line-height: 64px;
     right: 0px;
     z-index: -3;
 }
+.slick-slide {
+    margin: 0 10px;
+  }
 
 .mountain-text {
 	margin-top: 60px;
@@ -1489,6 +1492,14 @@ line-height: 64px;
             z-index: -3;
         }
     }
+}
+.slick-list{
+  overflow: hidden;
+}
+.slick-list:after{
+  clear: both;
+  content: "";
+  display: block;
 }
 
 @media (max-width: 990px) {
