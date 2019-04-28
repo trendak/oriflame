@@ -1201,7 +1201,24 @@ font-weight: 400;
 	max-width: 865px * 0.6;
 	width: 100%;
 }
-
+.brown-background{
+	background-image: url("../img/brown-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    p{
+    	font-family: "Gill Sans MT";
+font-size: 32px * 0.6;
+color: #fff;
+text-align: center;
+margin-top: 30px;
+font-weight: 700;
+text-transform: uppercase;
+    }
+}
+.nopadding-all {
+   padding: 0 !important;
+   margin: 0 !important;
+}
 @media (max-width: 990px) {
     .container {
         max-width: none !important;
