@@ -721,6 +721,9 @@
   margin-top: 100px;
   text-align: center;
   font-weight: 400; }
+  @media (max-width: 320px) {
+    .contest-column h3 {
+      font-size: 90px; } }
 .contest-column p {
   color: #000000;
   font-family: "Gill Sans MT";
