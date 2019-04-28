@@ -123,7 +123,13 @@ $size: 0.54;
         padding-left: 60px;
         padding-right: 80px;
         margin-bottom: 0;
+      
 
+ @media (min-width: 700px) {
+           display: flex;
+        justify-content: space-between; 
+
+        }
         @media (max-width: 800px) {
             padding-left: 41px;
             padding-right: 50px;
@@ -159,6 +165,9 @@ $size: 0.54;
                     font-size: 16px;
                     padding: 4px 12px;
 
+                }
+                @media (max-width: 1200px) {
+                	font-size: 17px;
                 }
             }
         }

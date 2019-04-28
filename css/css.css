@@ -89,6 +89,10 @@
     padding-left: 60px;
     padding-right: 80px;
     margin-bottom: 0; }
+    @media (min-width: 700px) {
+      .menu-main ol {
+        display: flex;
+        justify-content: space-between; } }
     @media (max-width: 800px) {
       .menu-main ol {
         padding-left: 41px;
@@ -111,6 +115,9 @@
         .menu-main ol a li {
           font-size: 16px;
           padding: 4px 12px; } }
+      @media (max-width: 1200px) {
+        .menu-main ol a li {
+          font-size: 17px; } }
   @media (max-width: 1200px) {
     .menu-main {
       top: -45px; } }
